@@ -6,6 +6,8 @@ param
     [System.String] $Format = 'Png'
 )
 
+Import-Module PScriboCharts -Verbose:$false
+
 $sampleData = Get-Process |
     Sort-Object -Property Handles -Descending |
         Select-Object -First 7
