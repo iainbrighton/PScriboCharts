@@ -10,7 +10,7 @@ param
     From Powershell v3 onwards, the module should not need to be explicitly imported. It is included
     here to avoid any ambiguity.
 #>
-Import-Module PScriboCharts -Force -Verbose:$false
+Import-Module PScriboCharts -Verbose:$false
 
 <#
     Generate some sample data to use as an example. This could be a collections of [System.Object[]] (or derived) types.
