@@ -1,0 +1,19 @@
+TOPIC
+    PScriboCharts
+
+SYNOPSIS
+    PScribo Charts is a charting library for Windows PowerShell and PowerShell Core.
+
+DESCRIPTION
+    PScribo Charts is an open source project that provides a PowerShell facade over the
+    [System.Windows.Forms.DataVisualization.Charting] .NET library. PScribo Charts provides a set of functions for
+    authoring charts and graphs in Windows PowerShell for use in documentation and/or web pages, e.g. with
+    PScribo - http://github.com/iainbrighton/PScribo
+
+    Due to its reliance on the [System.Windows.Forms.DataVisualization.Charting] .NET library, this module only
+    works on Microsoft Windows devices. However, Windows PowerShell and PowerShell (Core) are supported.
+
+    Requires __Powershell 3.0__ or later.
+
+OTHER EXAMPLES
+    Included in the PScribo Charts module are some documented example scripts in the .\Examples directory.
