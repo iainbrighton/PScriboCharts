@@ -1,7 +1,7 @@
 $here = Split-Path -Path $MyInvocation.MyCommand.Path -Parent;
 $testRoot  = Split-Path -Path $here -Parent;
 $moduleRoot = Split-Path -Path $testRoot -Parent;
-Import-Module "$moduleRoot\PScriboCharts.psd1" -Force;
+Import-Module "$moduleRoot\PScriboCharts.psm1" -Force;
 
 Get-ChildItem -Path (Join-Path -Path $moduleRoot -ChildPath 'Examples') |
     ForEach-Object {
